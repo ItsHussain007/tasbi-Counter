@@ -55,6 +55,10 @@ button {
     background: #0096FF;
 }
 
+#decrement-btn {
+    background: red;
+}
+
 #save-btn {
     background: #28a745;
 }
@@ -83,6 +87,15 @@ button {
     transform: translateY(0.4vw);
 }
 
+
+#decrement-btn:hover {
+    background-color: #880808;
+}
+
+#decrement-btn:active {
+    box-shadow: 0 0.5vw #666;
+    transform: translateY(0.4vw);
+}
 /* Extra small devices (phones, less than 600px) */
 @media (max-width: 599px) { 
     h1 {
@@ -198,10 +211,3 @@ button {
         margin: 2vw;
     }
 }
-
-/* Example CSS */
-html, body {
-    touch-action: manipulation; /* or 'none', depending on your needs */
-    -ms-touch-action: manipulation; /* for Internet Explorer/Edge */
-}
-
