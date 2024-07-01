@@ -52,6 +52,7 @@ button {
     border-radius: 0.5vw;
     font-family: 'Dancing Script';
     touch-action: manipulation; /* Prevents double-tap zoom */
+    margin: 1vw;
 
 }
 
