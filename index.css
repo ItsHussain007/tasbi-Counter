@@ -13,6 +13,8 @@ body {
     justify-content: center;
     margin: 0;
     overflow: hidden;
+    touch-action: manipulation; /* Prevents double-tap zoom */
+
 }
 
 #mainDiv {
@@ -49,6 +51,8 @@ button {
     margin-bottom: 1vw;
     border-radius: 0.5vw;
     font-family: 'Dancing Script';
+    touch-action: manipulation; /* Prevents double-tap zoom */
+
 }
 
 #increment-btn {
