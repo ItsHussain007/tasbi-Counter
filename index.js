@@ -5,7 +5,8 @@ let totalEl = document.getElementById("total-el");
 let count = 0
 
 
-  totalEl.innerText = "Total: " + newTotal;
+    
+
 
 
 function increment() {
@@ -16,8 +17,16 @@ function increment() {
 function save() {
     let countStr = count + " - "
     saveEl.textContent += countStr
-    countEl.textContent = 0
-    count = 0
+    
+    
+    let currentTotal=parseInt(totalEl.innerText.split(": ")[1]) 
+
+    let newTotal = currentTotal+count 
+    totalEl.innerText = "Total: " + newTotal;
+  
+  // Reset countEl and count
+    countEl.textContent = 0;
+    count = 0;
 }
 
 function decrement() {
@@ -26,8 +35,4 @@ function decrement() {
     countEl.textContent = count
 }
     }
-    
-let currentTotal=parseInt(totalEl.innerText.split(": ")(1))
-
-let newTotal = currentTotal+count
     
