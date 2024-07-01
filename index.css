@@ -198,3 +198,10 @@ button {
         margin: 2vw;
     }
 }
+
+/* Example CSS */
+html, body {
+    touch-action: manipulation; /* or 'none', depending on your needs */
+    -ms-touch-action: manipulation; /* for Internet Explorer/Edge */
+}
+
