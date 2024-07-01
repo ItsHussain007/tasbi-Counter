@@ -58,14 +58,24 @@ button {
 
 #increment-btn {
     background: #0096FF;
+    width:50px;
+    border-radius: 100px;
+    
 }
 
 #decrement-btn {
     background: red;
+    width:50px;
+    border-radius: 100px;
+
 }
 
 #save-btn {
     background: #28a745;
+    width: fit-content;
+    border-radius: 100px;
+    font-size: 30px;
+
 }
 
 #save-el {
