@@ -1,14 +1,15 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
     </head>
     <body>
         <div id="mainDiv">
         <h1>Tasbi Counter:</h1>
         <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+         <div class="button-container">
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+        </div>
         <button id="save-btn" onclick="save()">SAVE</button>
         <p id="save-el">Previous entries: </p>
         <script src="index.js">
